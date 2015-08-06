@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="@string/heading"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#8BC34A"
+        android:id="@+id/textView" />
+
+    <Button
+        style="@style/ProjectButton"
+        android:onClick="launchSpotifyStreamer"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/button_project_1" />
+
+    <Button
+        style="@style/ProjectButton"
+        android:onClick="launchScoresApp"
+        android:text="@string/scores_app"
+        android:id="@+id/button_project_2" />
+
+    <Button
+        style="@style/ProjectButton"
+        android:onClick="launchLibraryApp"
+        android:text="@string/library_app"
+        android:id="@+id/button_project_3" />
+
+    <Button
+        style="@style/ProjectButton"
+        android:onClick="launchBuildItBigger"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/button_project_4" />
+
+    <Button
+        style="@style/ProjectButton"
+        android:onClick="launchXYZReader"
+        android:text="@string/xyz_reader"
+        android:id="@+id/button_project_5" />
+
+    <Button
+        style="@style/ProjectButton"
+        android:onClick="launchMyOwnApp"
+        android:background="#8BC34A"
+        android:text="@string/my_own_app"
+        android:id="@+id/button_project_6" />
+
+</LinearLayout>
